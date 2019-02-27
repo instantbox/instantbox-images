@@ -9,7 +9,7 @@ if $SHOULD_PUSH; then
 fi
 
 echo "Downloading latest ttyd"
-curl -s https://api.github.com/repos/tsl0922/ttyd/releases/latest \
+curl -s "https://api.github.com/repos/tsl0922/ttyd/releases/latest?$GITHUB_URL_KEY" \
   | grep "ttyd_linux.x86_64" \
   | cut -d '"' -f 4 \
   | wget -N -i -

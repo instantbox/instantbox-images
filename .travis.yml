@@ -10,3 +10,4 @@ script:
     else 
       ./build.sh; 
     fi
+    
