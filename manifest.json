@@ -1,7 +1,7 @@
 [
   {
     "label": "Ubuntu",
-    "value": "Ubuntu",
+    "value": "ubuntu",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/ubuntu.png",
     "subList": [
       {
@@ -28,7 +28,7 @@
   },
   {
     "label": "CentOS",
-    "value": "CentOS",
+    "value": "centos",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/cent-os.png",
     "subList": [
       {
@@ -47,7 +47,7 @@
   },
   {
     "label": "Arch Linux",
-    "value": "Arch Linux",
+    "value": "arch",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/arch.png",
     "subList": [
       {
@@ -58,7 +58,7 @@
   },
   {
     "label": "Debian",
-    "value": "Debian",
+    "value": "debian",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/debian.png",
     "subList": [
       {
@@ -77,7 +77,7 @@
   },
   {
     "label": "Fedora",
-    "value": "Fedora",
+    "value": "fedora",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/fedora.png",
     "subList": [
       {
@@ -96,7 +96,7 @@
   },
   {
     "label": "Alpine",
-    "value": "Alpine",
+    "value": "alpine",
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/alpine.png",
     "subList": [
       {
