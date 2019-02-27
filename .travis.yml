@@ -1,0 +1,8 @@
+language: minimal
+sudo: required
+
+services:
+  - docker
+
+script:
+  - DOCKER_USER=$DOCKER_USER DOCKER_PASSWORD=$DOCKER_PASSWORD ./build.sh
