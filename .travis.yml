@@ -6,7 +6,7 @@ services:
 
 script:
   - if [ "$TRAVIS_BRANCH" = "master" ]; then 
-      DOCKER_USER=$DOCKER_USER DOCKER_PASSWORD=$DOCKER_PASSWORD ./build.sh; 
+      DOCKER_USER=$DOCKER_USER DOCKER_PASSWORD=$DOCKER_PASSWORD_SECURE ./build.sh; 
     else 
       ./build.sh; 
     fi
