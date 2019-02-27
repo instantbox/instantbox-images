@@ -12,9 +12,11 @@ echo "Downloading latest ttyd"
 curl -s https://api.github.com/repos/tsl0922/ttyd/releases/latest \
   | grep "ttyd_linux.x86_64" \
   | cut -d '"' -f 4 \
-  | wget -i -
-
-[[ ! -f "./ttyd_linux.x86_64" ]] && echo "Failed to download ttyd" && exit 1
+  | wget -N -i -
+if [[ ! -f "./ttyd_linux.x86_64" ]]; then
+  echo "Failed to download ttyd"
+  exit 1
+fi
 
 for IMAGE_NAME in $(cat manifest.json | grep osCode\":\ \"instantbox | grep -o 'instantbox[^"]*'); do
   SUFFIX=`echo ${IMAGE_NAME##*/}`

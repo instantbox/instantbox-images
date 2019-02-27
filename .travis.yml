@@ -5,4 +5,8 @@ services:
   - docker
 
 script:
-  - DOCKER_USER=$DOCKER_USER DOCKER_PASSWORD=$DOCKER_PASSWORD ./build.sh
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then 
+      DOCKER_USER=$DOCKER_USER DOCKER_PASSWORD=$DOCKER_PASSWORD ./build.sh; 
+    else 
+      ./build.sh; 
+    fi
