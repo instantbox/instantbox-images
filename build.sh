@@ -4,18 +4,15 @@ SHOULD_PUSH=true
 [[ -z "${DOCKER_USER}" ]] && SHOULD_PUSH=false
 [[ -z "${DOCKER_PASSWORD}" ]] && SHOULD_PUSH=false
 
-if $SHOULD_PUSH; then
-  docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD" "$DOCKER_REGISTRY"
-fi
-
 echo "Downloading latest ttyd"
-curl -s "https://api.github.com/repos/tsl0922/ttyd/releases/latest?$GITHUB_URL_KEY" \
-  | grep "ttyd_linux.x86_64" \
-  | cut -d '"' -f 4 \
-  | wget -N -i -
+wget "https://github.com/tsl0922/ttyd/releases/download/${TTYD_VERSION:-1.4.2}/ttyd_linux.x86_64"
 if [[ ! -f "./ttyd_linux.x86_64" ]]; then
   echo "Failed to download ttyd"
   exit 1
+fi
+
+if $SHOULD_PUSH; then
+  docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD" "$DOCKER_REGISTRY"
 fi
 
 for IMAGE_NAME in $(cat manifest.json | grep osCode\":\ \"instantbox | grep -o 'instantbox[^"]*'); do
