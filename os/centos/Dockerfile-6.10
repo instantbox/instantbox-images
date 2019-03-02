@@ -6,6 +6,8 @@ LABEL \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-images" \
   maintainer="Instantbox Team <team@instantbox.org>"
 
+WORKDIR /home
+
 COPY ./ttyd_linux.x86_64 /usr/bin/
 
 RUN chmod +x /usr/bin/ttyd_linux.x86_64
