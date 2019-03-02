@@ -29,7 +29,7 @@
   {
     "label": "CentOS",
     "value": "centos",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/cent-os.png",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/centos.png",
     "subList": [
       {
         "label": "6.10",
