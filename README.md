@@ -14,7 +14,6 @@ docker run --rm -it -p 1588:1588 <image_name>
 |`instantbox/ubuntu:14.04`|[![](https://badgen.net/docker/size/instantbox/ubuntu/14.04/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:14.04)|
 |`instantbox/ubuntu:16.04`|[![](https://badgen.net/docker/size/instantbox/ubuntu/16.04/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:16.04)|
 |`instantbox/ubuntu:18.04`|[![](https://badgen.net/docker/size/instantbox/ubuntu/18.04/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:18.04)|
-|`instantbox/ubuntu:19.04`|[![](https://badgen.net/docker/size/instantbox/ubuntu/19.04/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:19.04)|
 |`instantbox/ubuntu:20.04`|[![](https://badgen.net/docker/size/instantbox/ubuntu/20.04/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:20.04)|
 |`instantbox/ubuntu:latest`|[![](https://badgen.net/docker/size/instantbox/ubuntu/latest/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/ubuntu:latest)|
 |`instantbox/centos:6.10`|[![](https://badgen.net/docker/size/instantbox/centos/6.10/amd64?icon=docker&label=size)](https://microbadger.com/images/instantbox/centos:6.10)|

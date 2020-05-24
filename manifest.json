@@ -17,10 +17,6 @@
         "osCode": "instantbox/ubuntu:18.04"
       },
       {
-        "label": "19.04",
-        "osCode": "instantbox/ubuntu:19.04"
-      },
-      {
         "label": "20.04",
         "osCode": "instantbox/ubuntu:20.04"
       },
