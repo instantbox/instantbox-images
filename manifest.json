@@ -21,6 +21,10 @@
         "osCode": "instantbox/ubuntu:19.04"
       },
       {
+        "label": "20.04",
+        "osCode": "instantbox/ubuntu:20.04"
+      },
+      {
         "label": "latest",
         "osCode": "instantbox/ubuntu:latest"
       }
@@ -38,6 +42,10 @@
       {
         "label": "7",
         "osCode": "instantbox/centos:7"
+      },
+      {
+        "label": "8",
+        "osCode": "instantbox/centos:8"
       },
       {
         "label": "latest",
@@ -70,6 +78,10 @@
         "osCode": "instantbox/debian:stretch"
       },
       {
+        "label": "buster",
+        "osCode": "instantbox/debian:buster"
+      },
+      {
         "label": "latest",
         "osCode": "instantbox/debian:latest"
       }
@@ -81,12 +93,12 @@
     "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/fedora.png",
     "subList": [
       {
-        "label": "28",
-        "osCode": "instantbox/fedora:28"
+        "label": "30",
+        "osCode": "instantbox/fedora:30"
       },
       {
-        "label": "29",
-        "osCode": "instantbox/fedora:29"
+        "label": "31",
+        "osCode": "instantbox/fedora:31"
       },
       {
         "label": "latest",
